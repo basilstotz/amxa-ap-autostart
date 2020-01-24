@@ -1,0 +1,15 @@
+amxa-ap-autostart (1.0-4) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * initial
+  * *
+  * *
+  * aha
+
+ -- Basil Stotz <stotz.basil@builder3>  Fri, 24 Jan 2020 10:06:30 +0100
+
+amxa-ap-autostart (1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Basil Stotz <stotz@amxa.ch>  Fri, 24 Jan 2020 09:12:43 +0100

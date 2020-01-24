@@ -1,12 +1,13 @@
-amxa-ap-autostart (1.0-4) UNRELEASED; urgency=medium
+amxa-ap-autostart (1.0-5) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
   * initial
   * *
   * *
   * aha
+  * fix error
 
- -- Basil Stotz <stotz.basil@builder3>  Fri, 24 Jan 2020 10:06:30 +0100
+ -- Basil Stotz <stotz.basil@builder3>  Fri, 24 Jan 2020 11:53:05 +0100
 
 amxa-ap-autostart (1.0-1) unstable; urgency=medium
 

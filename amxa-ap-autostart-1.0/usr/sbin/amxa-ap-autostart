@@ -3,7 +3,7 @@
 if test "$(puavo-conf puavo.hosttype)" = "wirelessaccesspoint"; then
    while true; do
       if test "$(date +%H)" == "01"; then
-          rtcwake -m off -s 7200 && poweroff 
+          rtcwake -m off -s 7200  
       fi
       sleep 3600
    done

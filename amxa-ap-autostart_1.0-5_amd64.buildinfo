@@ -2,19 +2,19 @@ Format: 1.0
 Source: amxa-ap-autostart
 Binary: amxa-ap-autostart
 Architecture: all source
-Version: 1.0-4
+Version: 1.0-5
 Checksums-Md5:
- 8ce030234532ac8ac16705d075215da4 599 amxa-ap-autostart_1.0-4.dsc
- a048b8373f3987627ca0d03f6978bdcb 2160 amxa-ap-autostart_1.0-4_all.deb
+ 765ca3bebf575bd5c50935d024f33111 599 amxa-ap-autostart_1.0-5.dsc
+ e5bdfe0d18bbd55f107d3259a4a2e5e9 2164 amxa-ap-autostart_1.0-5_all.deb
 Checksums-Sha1:
- f5bc6949295065013cab017d1fedaab125faf831 599 amxa-ap-autostart_1.0-4.dsc
- 30c3f7ae62e94a8ca54df74740c9c705b56cd27b 2160 amxa-ap-autostart_1.0-4_all.deb
+ fcbbf2970a4a58c5ba35df344b3ec26054c61e4d 599 amxa-ap-autostart_1.0-5.dsc
+ b08fddb03cd5a7fa8dc48fb8ad8d89065a4c4a37 2164 amxa-ap-autostart_1.0-5_all.deb
 Checksums-Sha256:
- 19b536420d87845feb4d9d6e270793c0ddcb71699b49f9caeccf8545a3210c49 599 amxa-ap-autostart_1.0-4.dsc
- a66fa47902ae2bb813a2b2b36bf2ad898e51a8c75881bfdead107b79ad597675 2160 amxa-ap-autostart_1.0-4_all.deb
+ bc1f8ee7ae899526d98f55fffb9d5377876bebc2ce188d73b39f247253fb72b5 599 amxa-ap-autostart_1.0-5.dsc
+ e189d58538dc76af38754f49730d51718285ec2d6503ab013e40c3fc78904e2f 2164 amxa-ap-autostart_1.0-5_all.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Fri, 24 Jan 2020 10:06:39 +0100
+Build-Date: Fri, 24 Jan 2020 11:53:17 +0100
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -170,4 +170,4 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=4"
  LANG="de_CH.UTF-8"
  MAKEFLAGS=""
- SOURCE_DATE_EPOCH="1579856790"
+ SOURCE_DATE_EPOCH="1579863185"

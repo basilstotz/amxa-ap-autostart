@@ -1,0 +1,18 @@
+#!/bin/sh
+
+LIST="/images/amxa/wirelessaccesspoint.list"
+
+if test "$(puavo-conf puavo.hosttype)" = "bootserver"; then
+    if test -f $LIST ; then
+	sleep 300
+	for L in $(cat $LIST); do
+	    ssh $L sudo reboot
+	done
+	sleep 99999999
+    fi
+else
+   sleep 999999999
+fi
+
+
+exit

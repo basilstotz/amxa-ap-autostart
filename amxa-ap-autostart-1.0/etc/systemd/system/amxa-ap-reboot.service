@@ -1,0 +1,15 @@
+[Unit]
+Description=Auto reboot afte puavobox reboot for puavo wirelessaccesspoints
+After=syslog.target network.target nss-lookup.target
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/amxa-ap-reboot
+#ExecReload=/bin/kill -s HUP $MAINPID
+#ExecStop=/bin/kill -s QUIT $MAINPID
+Restart=always
+RestartSec=300
+
+
+[Install]
+WantedBy=multi-user.target

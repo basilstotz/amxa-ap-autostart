@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Fri, 21 Feb 2020 16:34:47 +0100
+Source: amxa-ap-autostart
+Binary: amxa-ap-autostart
+Architecture: source all
+Version: 1.0-8
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Changed-By: Basil Stotz <stotz.basil@builder3>
+Description:
+ amxa-ap-autostart - <insert up to 60 chars description>
+Changes:
+ amxa-ap-autostart (1.0-8) UNRELEASED; urgency=medium
+ .
+   * Non-maintainer upload.
+   * initial
+   * *
+   * *
+   * aha
+   * fix error
+   * added amxa-ap-reboot.service
+   * some cleanup
+   * fix postinst
+Checksums-Sha1:
+ 98be20c6b37254e00d13b2abe010333728d7772f 599 amxa-ap-autostart_1.0-8.dsc
+ ca5499d99d4215dc93767caf88732a1058d8e153 2331 amxa-ap-autostart_1.0-8.tar.gz
+ e72aef04ad0e1c395d1e3f571207ddc90d99df78 2450 amxa-ap-autostart_1.0-8_all.deb
+ a823be749cafa5d915d50a9212eea5472a589ecf 5274 amxa-ap-autostart_1.0-8_amd64.buildinfo
+Checksums-Sha256:
+ ad44380b847460358f137d99854e4ebacb5866b4a29130760164190e9bcc46df 599 amxa-ap-autostart_1.0-8.dsc
+ d108b8946fc1ccd19294eeeade441180a35183cc5754dc41039818eaa2eb77e0 2331 amxa-ap-autostart_1.0-8.tar.gz
+ 08318c0ddb0c941334d264793d1b793494c9404f3e6d79d1f26e67310bffcd11 2450 amxa-ap-autostart_1.0-8_all.deb
+ 10a5b1287166a004fa771df1dcd66083cb77d95efd64bcd960271c4f9c3a8269 5274 amxa-ap-autostart_1.0-8_amd64.buildinfo
+Files:
+ 23481f2ec03a01f16daa3f570d4d7661 599 education optional amxa-ap-autostart_1.0-8.dsc
+ 9b68079b1a4d01aec72e949b04c1f572 2331 education optional amxa-ap-autostart_1.0-8.tar.gz
+ 5c28707a854b533b7049c905c90ee932 2450 education optional amxa-ap-autostart_1.0-8_all.deb
+ 053b2dd79d6425f07ea514357d09f9c3 5274 education optional amxa-ap-autostart_1.0-8_amd64.buildinfo

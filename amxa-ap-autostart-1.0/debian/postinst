@@ -21,6 +21,7 @@ set -e
 case "$1" in
     configure)      
 	systemctl enable amxa-ap-autostart.service
+	systemctl enable amxa-ap-reboot.service
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

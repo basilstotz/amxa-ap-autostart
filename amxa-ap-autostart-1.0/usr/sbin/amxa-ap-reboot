@@ -8,11 +8,8 @@ if test "$(puavo-conf puavo.hosttype)" = "bootserver"; then
 	for L in $(cat $LIST); do
 	    ssh $L sudo reboot
 	done
-	sleep 99999999
     fi
-else
-   sleep 999999999
 fi
-
+sleep 999999999
 
 exit
